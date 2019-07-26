@@ -2,7 +2,7 @@ import UIKit
 
 public class Button: UIButton {
     
-    typealias DidTapButton = (Button) -> ()
+    public typealias DidTapButton = (Button) -> ()
     
     public var didTouchUpInside: DidTapButton? {
         
