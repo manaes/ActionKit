@@ -1,6 +1,6 @@
 import UIKit
 
-public class Button: UIButton {
+public class Content Button: UIButton {
     
     typealias DidTapButton = (Button) -> ()
     
