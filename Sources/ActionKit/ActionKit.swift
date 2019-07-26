@@ -1,6 +1,6 @@
 import UIKit
 
-public class Content Button: UIButton {
+public class Button: UIButton {
     
     typealias DidTapButton = (Button) -> ()
     
@@ -18,7 +18,7 @@ public class Content Button: UIButton {
     
     // MARK: - Actions
     
-    @objc private func didTouchUpInside(sender: UIButton) {
+    @objc public func didTouchUpInside(sender: UIButton) {
         
         if let handler = didTouchUpInside {
             handler(self)
